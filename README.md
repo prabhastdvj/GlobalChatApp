@@ -58,6 +58,7 @@ Before running the application, you need:
 ## Architecture
 
 The app follows the MVVM (Model-View-ViewModel) architecture:
+```
 app/
 ├── model/
 │ └── Data classes for the app
@@ -73,7 +74,7 @@ app/
 └── viewmodel/
 ├── AuthViewModel.kt
 └── ChatViewModel.kt
-
+```
 ## Azure Communication Services Setup
 
 1. Create an Azure Communication Services resource in the Azure Portal.
